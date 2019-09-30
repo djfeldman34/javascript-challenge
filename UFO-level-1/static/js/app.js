@@ -3,17 +3,17 @@ var tableData = data;
 
 var tbody = d3.select("tbody");
 
-//  data.forEach(function(weatherReport) {
-//    console.log(weatherReport);
-//    var row = tbody.append("tr");
-//    Object.entries(weatherReport).forEach(function([key, value]) {
-//      console.log(key, value);
+ data.forEach(function(weatherReport) {
+   console.log(weatherReport);
+   var row = tbody.append("tr");
+   Object.entries(weatherReport).forEach(function([key, value]) {
+     console.log(key, value);
      
 
-//      var cell = row.append("td");
-//      cell.text(value);
-//    });
-//  });
+     var cell = row.append("td");
+     cell.text(value);
+   });
+ });
 
 var button = d3.select("#filter-btn");
 
