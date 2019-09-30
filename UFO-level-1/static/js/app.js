@@ -22,13 +22,17 @@ button.on("click", function() {
   // Select the input element and get the raw HTML node
   var inputElement = d3.select("#datetime");
 
+  console.log(inputElement)
+
   // Get the value property of the input element
   var inputValue = inputElement.property("value");
+
+  console.log(inputValue)
 
 //  console.log(inputValue);
 //  console.log(tableData);
 
-  var filteredData = tableData.filter(weatherReport => tableData.datetime == inputValue);
+  var filteredData = tableData.filter(tableData => tableData.datetime == inputValue);
 
 console.log(filteredData);
 
