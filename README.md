@@ -1,7 +1,7 @@
 # JavaScript Challenge
 A dynamic website application that uses JavaScript to dynamically return results based on a user input.  In addition, utilized HTML, CSS, Bootstrap, and D3 for website deployment and formatting.
 ## Data Sets Used
-[UFO Sightings Data](StarterCode/static/js/data.js)
+UFO Sightings Data (StarterCode/static/js/data.js)
 ## Breakdown of Tasks
 <ul>
   <li>Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided</li>
